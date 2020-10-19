@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100vh;
+}
+
+.header {
+  background-color: #ecf5ff;
+  padding: 0 5px;
+  height: 60px !important;
+
+  .logo {
+    //top: 6px;
+    position: absolute;
+    width: 80px;
+    height: 55px;
+  }
+
+  .site-title {
+    //color: #ffffff;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.298039);
+    position: absolute;
+    top: 18px;
+    left: 120px;
+  }
+}
+
+.pageLeft {
+  width: 200px !important;
+  //background-color: rgb(238, 241, 246)
+  border-right: 1px #dddddd solid;
+}
+
+.main-view {
+  padding: 0 0 0 10px;
+}
+
+.battery-voltage {
+  border: black solid 2px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  box-shadow:5px 5px 2px #ccc;
+
+  .tip {
+    margin-top: 15px;
+  }
+}
